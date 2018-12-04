@@ -15,6 +15,17 @@ $btn-font-weight: 300i;
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300i,400');
 $font-family-sans-serif: 'Nunito', sans-serif;
 
+$card-bg: #F2F2F2;
+
+$card-border-color: none;
+
+$paragraph-margin-bottom: 2rem;
+
+$box-shadow: 0 0rem 1.5rem rgba(black, .4);
+
+$display3-size: 3rem;
+
+$display4-size: 2.5rem;
 // Load the main bootstrap framework.
 @import '../node_modules/bootstrap/scss/bootstrap';
 

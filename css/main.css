@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 2rem; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -339,12 +339,12 @@ h6, .h6 {
   line-height: 1.2; }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2; }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2; }
 
@@ -3062,9 +3062,9 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #F2F2F2;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid none;
   border-radius: 15px; }
   .card > hr {
     margin-right: 0;
@@ -3100,7 +3100,7 @@ input[type="button"].btn-block {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
+  border-bottom: 1px solid none; }
   .card-header:first-child {
     border-radius: calc(15px - 1px) calc(15px - 1px) 0 0; }
   .card-header + .list-group .list-group-item:first-child {
@@ -3109,7 +3109,7 @@ input[type="button"].btn-block {
 .card-footer {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125); }
+  border-top: 1px solid none; }
   .card-footer:last-child {
     border-radius: 0 0 calc(15px - 1px) calc(15px - 1px); }
 
@@ -5076,7 +5076,7 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
 
 .shadow {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; }
+  box-shadow: 0 0rem 1.5rem rgba(0, 0, 0, 0.4) !important; }
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
