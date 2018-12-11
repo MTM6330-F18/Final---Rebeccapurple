@@ -10,18 +10,163 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="jumbotron my-5">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="./index.html">
+      <img src="./images/school-logo.png" alt="Algonquin Logo" style="height: 25px">
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Schedules</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Courses
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Server Side Web Production</a>
+          <a class="dropdown-item" href="#">Motion Graphics</a>
+          <a class="dropdown-item" href="#">Web Production</a>
+          <a class="dropdown-item" href="#">Project Management</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Professors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Adam Jarvis</a>
+          <a class="dropdown-item" href="#">Michael Eisenbraun</a>
+          <a class="dropdown-item" href="#">Amel Dedic</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <button type="button" class="btn btn-primary rounded">Check Program Availability</button>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- <nav class="d-lg-none d-sm-block navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+  <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div> -->
+  <!-- </nav> -->
+
+  <!-- Stripped carousel for viewport wide header image -->
+  <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/hero-image.png" alt="First slide">
+      </div>
     </div>
   </div>
-</body>
 
+  <!-- Header Message -->
+  <div class="container p-4">
+    <h1 class="display-3 text-center">Program Information</h1>
+  </div>
+
+  <!-- Information Card -->
+  <div class="row justify-content-center">
+    <div class="col-sm-10">
+      <div class="card shadow p-1 mb-5 rounded">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <p>Credential: <b>Ontario College Diploma</b></p>
+              </div>
+              <div class="col text-center">
+                <p>Area of Interest: <b>Arts and Design</b></p>
+              </div>
+              <div class="col text-right">
+                <p>Academic Year: <b>Sept 2018 - Aug 2019</b></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                Duration: <b>2 Years</b>
+              </div>
+              <div class="col text-center">
+                Program Code: <b>6149X01FWO</b>
+              </div>
+              <div class="col text-right">
+                Campus: <b>Ottawa</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container p-4">
+    <h1 class="display-4">Overview</h1>
+    <p class="pt-3">This two-year Ontario College Diploma program is designed to prepare students for a vari-
+      ety of careers in the digital media industry. Students explore the primary elements of media
+
+      project planning and development with equal importance given to the creative and the tech-
+      nical aspects. Strong emphasis is placed on hands-on media production through courses in
+
+      web development, digital imaging, authoring, animation, photography and video. Students
+      plan and execute individual and team-based projects and gain practical experience working
+      with live clients. The curriculum is delivered on a variety of platforms including Apple OS X,
+      Windows and a variety of mobile operating systems.</p>
+
+    <h4>Bring Your Own Device (BYOD)</h4>
+    <p>Students are expected to have and use a laptop or mobile computing device when regis-
+      tered in this on-campus program. Hardware and software specifications required by your
+
+      program are outlined at http://algonquincollege.com/byod. Mobile devices/laptops and sup-
+      plies can be purchased directly from Algonquin`s New Technology Store at educational rates.</p>
+
+    <h4>Success Factors</h4>
+    This program is well-suited for students who:
+    <ul>
+      <li>Are highly adaptable to today’s technology.</li>
+      <li>Are imaginative and enjoy solving problems.</li>
+      <li>Enjoy a hands-on approach to learning about the multimedia industry.</li>
+      <li>Enjoy working on projects in a team-based environment.</li>
+    </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
 </html>
