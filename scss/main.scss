@@ -13,19 +13,20 @@ $font-weight-light: 200;
 $btn-font-weight: 300i;
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:200,300i,400');
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: 'Nunito', sans-serif; // import custom site font
 
-$card-bg: #F2F2F2;
+$card-bg: #F2F2F2; // darken card background
 
-$card-border-color: none;
+$card-border-color: none; // remove card border
 
-$paragraph-margin-bottom: 2rem;
+$paragraph-margin-bottom: 2rem; // increase paragraph spacing
 
-$box-shadow: 0 0rem 1.5rem rgba(black, .4);
+$box-shadow: 0 0rem 1.5rem rgba(black, .4); // tweak drop shaddow on information box
 
-$display3-size: 3rem;
+$display3-size: 3rem; // adjust title sizes
 
-$display4-size: 2.5rem;
+$display4-size: 2.5rem; // adjust title sizes
+
 // Load the main bootstrap framework.
 @import '../node_modules/bootstrap/scss/bootstrap';
 
